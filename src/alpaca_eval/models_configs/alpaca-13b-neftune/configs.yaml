@@ -1,0 +1,8 @@
+alpaca-13b-neftune:
+  prompt_template: "/data/suneja/alpaca-eval/alpaca_eval/src/alpaca_eval/models_configs/alpaca-13b-neftune/prompt.txt"
+  fn_completions: "huggingface_local_completions"
+  completions_kwargs:
+    model_name: "/data/suneja/llama_fms_oss/neftune/checkpoint-2030" 
+    max_length: 512
+    eos_token_id: [1, 2799, 4080, 29901]
+  pretty_name: "Alpaca 13B Neftune"
